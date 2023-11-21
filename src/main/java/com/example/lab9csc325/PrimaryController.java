@@ -45,7 +45,7 @@ public class PrimaryController {
     private Button writeButton;
 
     private boolean key;
-    private ObservableList<Person> listOfUsers = FXCollections.observableArrayList();
+    private final ObservableList<Person> listOfUsers = FXCollections.observableArrayList();
     private Person person;
 
     public ObservableList<Person> getListOfUsers() {
